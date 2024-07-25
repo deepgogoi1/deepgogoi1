@@ -1,7 +1,11 @@
 [
   {
     "batch_name": "Physics wallah ",
-    "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg"
+    "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg",
+    "batch_profile": "Yakeen 1.0 2025",
+    "batch_profile - Copy 1": "Yakeen 2.0 2025",
+    "batch_profilepic": "https://graph.org/file/1380ad2c7e6282f36e97d.jpg",
+    "batch_profilepic - Copy 1": "https://graph.org/file/36fd750d3f257acdf2848.jpg"
   },
   {
     "batch_name": "Aakash",
@@ -14,17 +18,5 @@
   {
     "batch_name": "New light ",
     "batch_banner": "https://graph.org/file/5890c0bce20de83b38926.jpg"
-  },
-  {
-    "batch_name": "Physics wallah ",
-    "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg"
-  },
-  {
-    "batch_name": "Physics wallah ",
-    "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg"
-  },
-  {
-    "batch_name": "Physics wallah ",
-    "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg"
   }
 ]
