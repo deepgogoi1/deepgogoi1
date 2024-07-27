@@ -16,7 +16,7 @@
   "aakash": [
     {
       "name": "RM PHASE 1 FT ",
-      "image": "https://graph.org/file/236e95d2557f6ba690cf4.jpg"
+      "image": "https://graph.org/file/db41e762d3b777a5edbef.jpg"
     }
   ],
   "Allen": [
@@ -36,5 +36,15 @@
       "name": "Leader",
       "image": "https://graph.org/file/0f51bb2753d48ba6cff4b.jpg"
     }
-  ]
+  ],
+    "New light institute": [
+    {
+      "name": "Neet test series",
+      "image": "https://graph.org/file/d2a3381b832e7f01a3345.jpg"
+    },
+    {
+      "name": "Full syllabus test",
+      "image": "https://graph.org/file/cc063fba7de86bf5a9f4e.jpg"
+    }
+    ]
 }
