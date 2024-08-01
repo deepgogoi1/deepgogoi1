@@ -1,0 +1,120 @@
+{
+  "physicsWallah": [
+    {
+      "batch_name": "Physics Wallah",
+      "batch_banner": "https://graph.org/file/4c60ddc05f96c954ef48d.jpg",
+      "sub_batches": [
+        {
+          "batch_name": "Arjuna",
+          "batch_banner": "https://graph.org/file/526a196db25c1001bc73e.jpg",
+          "sub_batches": [
+            {
+              "batch_name": "Arjuna neet 1.0",
+              "batch_banner": "https://graph.org/file/680c5f1da2f43801961c8.jpg"
+            },
+            {
+              "batch_name": "Arjuna neet 2.0",
+              "batch_banner": "https://graph.org/file/dd386d93a426c8834bbb5.jpg"
+            },
+            {
+              "batch_name": "Arjuna neet 3.0",
+              "batch_banner": "https://graph.org/file/caf867945a26519376851.jpg"
+            }
+          ]
+        },
+        {
+          "batch_name": "Lakshya",
+          "batch_banner": "https://graph.org/file/ff937012eaf03fca354d0.jpg",
+          "sub_batches": [
+            {
+              "batch_name": "Lakshya neet 1.0",
+              "batch_banner": "https://graph.org/file/d14306575bcc563affb7e.jpg"
+            },
+            {
+              "batch_name": "Lakshya neet 2.0",
+              "batch_banner": "https://graph.org/file/192a3e24fcfa234550b00.jpg"
+            },
+            {
+              "batch_name": "Lakshya neet 3.0",
+              "batch_banner": "https://graph.org/file/53ff35eac55bce755213f.jpg"
+            }
+          ]
+        },
+        {
+          "batch_name": "Yakeen",
+          "batch_banner": "https://graph.org/file/236e95d2557f6ba690cf4.jpg",
+          "sub_batches": [
+            {
+              "batch_name": "Yakeen neet 1.0",
+              "batch_banner": "https://graph.org/file/1a0babb009cda338ce366.jpg"
+            },
+            {
+              "batch_name": "Yakeen neet 2.0",
+              "batch_banner": "https://graph.org/file/70a3cbc387444697c4e47.jpg"
+            },
+            {
+              "batch_name": "Yakeen neet 3.0",
+              "batch_banner": "https://graph.org/file/adfde402a343dfcb7d02f.jpg"
+            },
+            {
+              "batch_name": "Yakeen Hindi 2025",
+              "batch_banner": "https://graph.org/file/294c31558cbb03c15fc92.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aakash": [
+    {
+      "batch_name": "Aakash",
+      "batch_banner": "https://graph.org/file/509a588ab1c90e838396c.jpg",
+      "sub_batches": [
+        {
+          "batch_name": "Aakash RM phase 1 FT",
+          "batch_banner": "https://graph.org/file/db41e762d3b777a5edbef.jpg"
+        }
+      ]
+    }
+  ],
+  "allen": [
+    {
+      "batch_name": "Allen",
+      "batch_banner": "https://graph.org/file/9df99852c7eba65f50693.jpg",
+      "sub_batches": [
+        {
+          "batch_name": "Allen nurture",
+          "batch_banner": "https://graph.org/file/93bcbb0494f9a9289a62a.jpg"
+        },
+        {
+          "batch_name": "Allen enthuse",
+          "batch_banner": "https://graph.org/file/017f64456d2362594ac8c.jpg"
+        },
+        {
+          "batch_name": "Allen achiever",
+          "batch_banner": "https://graph.org/file/c8fb0078ad0e882ae711f.jpg"
+        },
+        {
+          "batch_name": "Allen leader",
+          "batch_banner": "https://graph.org/file/0f51bb2753d48ba6cff4b.jpg"
+        }
+      ]
+    }
+  ],
+  "newLightInstitute": [
+    {
+      "batch_name": "New light institute",
+      "batch_banner": "https://graph.org/file/5890c0bce20de83b38926.jpg",
+      "sub_batches": [
+        {
+          "batch_name": "All india neet test series",
+          "batch_banner": "https://graph.org/file/d2a3381b832e7f01a3345.jpg"
+        },
+        {
+          "batch_name": "All india full syllabus test series",
+          "batch_banner": "https://graph.org/file/cc063fba7de86bf5a9f4e.jpg"
+        }
+      ]
+    }
+  ]
+}
