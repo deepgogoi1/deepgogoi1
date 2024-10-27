@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>NEETPrep Login</title>
     <script>
-        // Function to set cookies
+        // Function to set cookies for the session
         function setCookie(name, value, days) {
             let date = new Date();
             date.setTime(date.getTime() + (days*24*60*60*1000));
             document.cookie = name + "=" + value + ";expires=" + date.toUTCString() + ";path=/";
         }
 
-        // Function to get cookies
-        function getCookie(name) {
-            let cookieArray = document.cookie.split(';');
-            for (let cookie of cookieArray) {
-                if (cookie.trim().startsWith(name)) {
-                    return cookie.split('=')[1];
-                }
-            }
-            return "";
-        }
-
-        // Login function (simple example)
+        // Function to simulate login submission
         function login() {
             let username = document.getElementById('username').value;
             let password = document.getElementById('password').value;
 
-            if (username === "user" && password === "pass") {  // Simple check
-                setCookie("sessionToken", "sampleToken123", 7);  // Save session for 7 days
+            // Make a request to NEETPrep login (You need the login API endpoint)
+            fetch('https://www.neetprep.com/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'email=' + encodeURIComponent(username) + '&password=' + encodeURIComponent(password)
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.text();  // Get response as text
+                } else {
+                    alert("Invalid login");
+                }
+            })
+            .then(data => {
+                // Extract token or session details from the response (if available)
+                console.log(data);
+                // Simulating token save (you may need to parse actual token)
+                let token = "sampleToken123";  // Placeholder token
+                setCookie("neetprepToken", token, 7);  // Save session for 7 days
                 window.location.href = "dashboard.html";  // Redirect to dashboard
-            } else {
-                alert("Invalid login!");
-            }
-        }
-
-        // Automatically check login when the page loads
-        window.onload = function() {
-            if (getCookie("sessionToken")) {
-                window.location.href = "dashboard.html";  // Redirect if logged in
-            }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
         }
     </script>
 </head>
 <body>
-    <h2>Login Page</h2>
-    <label>Username:</label>
-    <input type="text" id="username"><br>
+    <h2>NEETPrep Login</h2>
+    <label>Email:</label>
+    <input type="email" id="username"><br>
     <label>Password:</label>
     <input type="password" id="password"><br>
     <button onclick="login()">Login</button>
